@@ -27,7 +27,6 @@ Celem jest sprawdzenie, **co wpływa na to, jak często film jest wypożyczany**
 ---
 
 
-
 ### A. Popularność kategorii
 
 ![Wypożyczenia wg kategorii](images/kategoria.png)
@@ -39,16 +38,12 @@ Celem jest sprawdzenie, **co wpływa na to, jak często film jest wypożyczany**
 
 ![Cena vs liczba wypożyczeń](images/cena_vs_wypozyczenia.png)
 
-To zapytanie pokazuje, jak dla każdej stawki za wypożyczenie rozkłada się średnia liczba wypożyczeń.
-
 ---
 
 ### C. Długość filmu a wypożyczenia
 
 
 ![Długość filmu vs wypożyczenia](images/dlugosc_vs_wypozyczenia.png)
-
-Wynik pokazuje, czy częściej wypożyczane są filmy krótkie, średnie, długie czy bardzo długie.
 
 ---
 
@@ -57,13 +52,13 @@ Wynik pokazuje, czy częściej wypożyczane są filmy krótkie, średnie, długi
 
 ![Rating vs wypożyczenia](images/wiek_vs_wypozyczenia.png)
 
-To pozwala zobaczyć, które ratingi (np. filmy rodzinne vs dla dorosłych) są średnio wypożyczane częściej.
-
 ---
 
 ### E. Najchętniej wypożyczane filmy (top10)
 
 ![Najchętniej wypożyczane filmy](images/najlepsze_tytuły.png)
+
+---
 
 ## Najważniejsze wnioski (do uzupełnienia)
 
@@ -71,24 +66,20 @@ W tej sekcji możesz krótko opisać swoje własne obserwacje na podstawie wynik
 Zastąp poniższe przykłady realnymi wnioskami z twoich tabel/screenów.
 
 - **Kategorie:**  
-  - Np. kategoria `[...]` generuje najwyższą łączną liczbę wypożyczeń.  
-  - Niektóre kategorie mają mało filmów, ale za to bardzo wysoką średnią wypożyczeń na film.
+  - Kategoria sport generuje najwięcej wypożyczeń. Nieciężko równierz zauważyć, że ma najwięcej      tytułów co znacząco na to wpływa.
+  - Wiarygodniejszą wartością jest (`avg_rentals-per_film`) która jasno wskazuję dominację           kategorii takich jak: ('Sports'),('Action') czy ('Sci-Fi').
+  - Warto również wspomnieć o kategorii ('Classics'), która nie wyróżnia się liczbą wypożyczeń,      jednakże gdy weźmiemy pod uwagę zarówno jej (`avg_rentals-per_film`) jak i liczbę filmów,        jest to coś wartego uwagi.
 
 - **Cena (`rental_rate`):**  
-  - Np. filmy w cenie `X`–`Y` są wypożyczane najczęściej.  
-  - Wyższa cena nie zawsze oznacza mniejszą liczbę wypożyczeń / albo odwrotnie – w zależności od wyników.
+  Filmy w cenie ('0.99') cieszą się większym powodzeniem, niż ich droższe odpowiedniki. Wskazuję   na to ich jasna przewaga w (`avg_rentals-per_film`). Jednogłośnie można stwierdzić, że niska     cena nie odpycha klientów, a nawet bardzo możliwe, że nawet ich przyciąga. Może to być           spowodowane np. brakiem zdecydowania i poprostu wybieranie tańszej opcji.
 
 - **Długość filmu:**  
-  - Np. najczęściej wypożyczane są filmy o średniej długości (60–100 minut).  
+  - Najczęściej wypożyczane są filmy o średniej długości (60–100 minut).  
   - Filmy bardzo krótkie / bardzo długie mają mniejszą średnią liczby wypożyczeń.
+  - Warto zwrócić uwagę na ogromną różnicę w ilości filmów krótkich w stosunku do reszty. Mimo       to nie odbiegają one od reszty średnią liczbą wypożyczeń na tytuł.
 
 - **Rating:**  
-  - Np. filmy o ratingu `PG` mają najwyższą średnią liczbę wypożyczeń, co może sugerować, że tytuły „rodzinne” są popularniejsze.
+  - Filmy o ratingu `PG` mają najwyższą średnią liczbę wypożyczeń, co może sugerować, że tytuły      „rodzinne” są popularniejsze.
+  - Możemy zauwarzyć spadek (`avg_rentals-per_film`) wraz z zaostrzaniem ograniczeń wiekowych.       Powodem, może być nie tyle mniejsze zainteresowanie, co poprostu profil/wiek klientów.
 
 ---
-
-
-## Licencja
-
-Projekt ma charakter edukacyjny.  
-Przykładowa baza danych **dvdrental** jest publicznie dostępna jako oficjalny przykład dla PostgreSQL.
