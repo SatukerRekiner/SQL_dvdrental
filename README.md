@@ -1,6 +1,7 @@
 # Analiza wypożyczeń filmów w PostgreSQL
 
 Ten projekt to podstwowa analiza danych w sql z postgresql, z wykorzystaniem przykładowej bazy **dvdrental**.
+Projekt jest na tyle podstawowy, że nie rozwodziłem się nad metodyką w readme. Całość jest w pliku **rental_analysis.sql**
 
 Celem jest sprawdzenie, **co wpływa na to, jak często film jest wypożyczany**:
 - kategoria filmu (komedia, dramat itd.),
