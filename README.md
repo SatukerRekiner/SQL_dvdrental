@@ -64,8 +64,8 @@ Celem jest sprawdzenie, **co wpływa na to, jak często film jest wypożyczany**
 
 - **Kategorie:**  
   - Kategoria sport generuje najwięcej wypożyczeń. Nieciężko równierz zauważyć, że ma najwięcej tytułów co znacząco na to wpływa.
-  - Wiarygodniejszą wartością jest (`avg_rentals-per_film`) która jasno wskazuję dominację kategorii takich jak: 'Sports', 'Action' czy 'Sci-Fi'.
-  - Warto również wspomnieć o kategorii 'Classics', która nie wyróżnia się liczbą wypożyczeń, jednakże gdy weźmiemy pod uwagę zarówno jej (`avg_rentals-per_film`) jak i liczbę filmów, jest to coś wartego uwagi.
+  - Wiarygodniejszą wartością jest (`avg_rentals-per_film`) która jasno wskazuję dominację kategorii takich jak: Sports, Action czy Sci-Fi.
+  - Warto również wspomnieć o kategorii Classics, która nie wyróżnia się liczbą wypożyczeń, jednakże gdy weźmiemy pod uwagę zarówno jej (`avg_rentals-per_film`) jak i liczbę filmów, jest to coś wartego uwagi.
 
 - **Cena (`rental_rate`):**  
   Filmy w cenie "0.99" cieszą się większym powodzeniem, niż ich droższe odpowiedniki. Wskazuję   na to ich jasna przewaga w (`avg_rentals-per_film`). Jednogłośnie można stwierdzić, że niska cena nie odpycha klientów, a nawet bardzo możliwe, że nawet ich przyciąga. Może to być spowodowane np. brakiem zdecydowania i poprostu wybieranie tańszej opcji.
